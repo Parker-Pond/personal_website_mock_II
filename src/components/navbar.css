@@ -4,6 +4,7 @@
     overflow: hidden;
     justify-content: space-between;
     margin-top: 2rem;
+    height: 6rem;
 
 }
 
@@ -17,13 +18,20 @@ margin-bottom: auto;
     display:flex;
 }
 
-.inner_bar_link {
+.inner_bar_link{
     background-color: gray;
     color: rgb(236, 241, 244);
     border: 1px solid gray;
     border-radius: 25px;
     overflow: hidden;
-    box-shadow: 10px 5px 5px rgb(70, 68, 70);
+    box-shadow: 10px 10px 10px rgb(70, 68, 70);
     padding: 1rem;
     margin: 2rem;
+    margin-bottom: 4rem;
+    text-decoration: none;
+}
+
+#clean_text {
+    text-decoration: none;
+    color: black;
 }
